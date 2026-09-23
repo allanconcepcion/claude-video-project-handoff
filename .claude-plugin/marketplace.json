@@ -1,0 +1,17 @@
+{
+  "name": "allan-video-workflows",
+  "owner": {
+    "name": "Allan Concepcion",
+    "url": "https://github.com/allanconcepcion"
+  },
+  "metadata": {
+    "description": "Reusable Claude Code workflows for video production and editor handoffs."
+  },
+  "plugins": [
+    {
+      "name": "video-production",
+      "source": "./plugins/video-production",
+      "description": "Creates source-grounded video editing plans, filename maps, cost summaries, and editor handoff PDFs."
+    }
+  ]
+}
